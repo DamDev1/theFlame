@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(250, 52, 52);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+
+.container{
+    background: white;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+.container .loverNames{
+    margin-top: 1rem;
+}
+
+.container .loverNames input{
+    padding: 10px;
+    outline: 0;
+    font-size: 15px;
+}
+
+.container .loverNames button{
+    padding: 10px;
+    background: rgb(250, 52, 52);
+    color: white;
+    font-size: 18px;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+}
+
+.container .result{
+    margin-top: 2rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container .flame{
+    text-align: center;
+    margin-top: 10px;
+}
